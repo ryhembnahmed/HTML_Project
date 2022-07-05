@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML PROJECT</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #96ceb4;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #588c7e;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #96ceb4;
+        color: white;
+      }
+
+      .main {
+        border: 3px outset white;
+        background-color: whitesmoke;
+        text-align: center;
+      }
+
+      section {
+        border: 3px outset white;
+        background-color: whitesmoke;
+        text-align: center;
+      }
+
+      .center {
+      margin-left: auto; 
+      margin-right: auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="main">
+        <section>
+          <h2><a name="home">Home</a></h2>
+             <p><b>Hello,</b></p>
+          <p>I am Rihem Ben Ahmed,</p>
+          <p>web developer.</p>
+        <section>
+        <section>
+          <h2><a name="about">About</a></h2>
+          <p>I’m a Front-End Developer located in Tunisia.</p>
+          <p>I have studied at higher institute of computer science based in Ariana.</p> 
+          <p>I love building interfaces, I am a Well-organised person, and a fan of TV series.</p>   
+          <p>My favourite serie is:</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lGcJL6TG5cA" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br/>
+          <p>And some music:</p>
+          <audio controls>
+            <source src="Pacific_Moody.mp3" type="audio/mp3"/>
+            Please check the audio extension
+          </audio>
+          <br/>
+        </section>
+        <section>
+          <h2><a name="work">Work</a></h2>
+          <p>There are some of my project
+            <table class="center">
+              <tr>
+                <td><b>Event Application</b></td> 
+              </tr>
+              <tr>
+                <td><b>Smart Parking Project</b></td>
+              </tr>
+              <tr>
+                <td><b>Training Management Platform</b></td>
+              </tr>
+            </table>
+          </p>
+        </section>
+        <section>
+          <h2><a name="resume">Resume<a></a></h2>
+          <p>This is my resume</p>
+          <img src="cv.JPG" alt="Resume image" width="300" height="240">
+          <br/><br/>
+        </section>
+        <section>
+          <h2><a name="contact">Contact Me<a></a></h2>
+          <form>
+            <label>First Name:</label>
+            <input type="text" name="firstName" placeholder="Please type your first name"/>
+            <br/><br/>
+            <label>Last Name:</label>
+            <input type="text" name="LastName" placeholder="Please type your last name"/>
+            <br/><br/>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Please type your Email"/>
+            <br/><br/>
+            <button type="submit">Send Message</button>
+          </form>
+          <br/><br/>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Author: Rihem Ben Ahmed<br />
+        <a href="mailto:ryhembenahmed@gmail.com">Ryhembenahmed@gmail.com.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
