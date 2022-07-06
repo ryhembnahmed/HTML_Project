@@ -2,60 +2,11 @@
 <html>
   <head>
     <title>HTML PROJECT</title>
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #96ceb4;
-      }
-
-      li {
-        float: left;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: #588c7e;
-      }
-
-      footer {
-        text-align: center;
-        padding: 3px;
-        background-color: #96ceb4;
-        color: white;
-      }
-
-      .main {
-        border: 3px outset white;
-        background-color: whitesmoke;
-        text-align: center;
-      }
-
-      section {
-        border: 3px outset white;
-        background-color: whitesmoke;
-        text-align: center;
-      }
-
-      .center {
-      margin-left: auto; 
-      margin-right: auto;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <ul>
+      <ul class="navbar">
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
@@ -88,24 +39,31 @@
         </section>
         <section>
           <h2><a name="work">Work</a></h2>
-          <p>There are some of my project
+          <p>There are some of my project </p>
+          <br/>
             <table class="center">
               <tr>
-                <td><b>Event Application</b></td> 
+                <th>Event Application</th>
+                <th>Smart Parking Project</th>
+                <th>Training Management Platform</th>
               </tr>
               <tr>
-                <td><b>Smart Parking Project</b></td>
-              </tr>
-              <tr>
-                <td><b>Training Management Platform</b></td>
+                <td>
+                  <img src="event.PNG" alt="event">
+                </td>
+                <td>
+                  <img src="smartparking.JPG" alt="smartparking">
+                </td>
+                <td>
+                  <img src="gestion_de_formation.jpg" alt="Training">
+                </td>
               </tr>
             </table>
-          </p>
         </section>
         <section>
           <h2><a name="resume">Resume<a></a></h2>
           <p>This is my resume</p>
-          <img src="cv.JPG" alt="Resume image" width="300" height="240">
+          <img src="cv.JPG" alt="Resume image">
           <br/><br/>
         </section>
         <section>
